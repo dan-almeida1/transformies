@@ -1,0 +1,27 @@
+:: The Autobots {"position":"675,25","size":"100,100"}
+This can show the approval system for the characters.
+
+Prowl: $prowl.approval
+    <<if $prowl.approval >=95>>
+        Prowl trusts you with the Autobot cause.
+    <<elseif $prowl.approval >=85 && $prowl.approval <=94>>
+		Prowl needs to be near you.
+    <<elseif $prowl.approval >=75 && $prowl.approval <=84>>
+		Prowl wants to be around you.
+    <<elseif $prowl.approval >=65 && $prowl.approval <=74>>
+		Prowl sees you as a confidante.
+    <<elseif $prowl.approval >=50 && $prowl.approval <=64>>
+		Prowl thinks you are of a similar mind.
+    <<elseif $prowl.approval >=35 && $prowl.approval <=49>>
+		Prowl thinks you are better than most.
+    <<elseif $prowl.approval >=25 && $prowl.approval <=34>>
+		Prowl thinks you are a fine, reasonable soldier.
+    <<elseif $prowl.approval >=15 && $prowl.approval <=24>>
+		Prowl sees you as part of the rabble.
+    <<elseif $prowl.approval >=0 && $prowl.approval <=14>>
+		Prowl can't tell you apart from the cannon fodder.
+    <</if>>
+
+Optimus: $optimus.approval
+
+:)

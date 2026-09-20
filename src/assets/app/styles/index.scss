@@ -1,3 +1,38 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+    font-family: dogica;
+    src: url("fonts/dogica.ttf") format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body    {
+    background-color: #000000;
+    font-family: dogica;
+}
+
+.hover {
+    position: relative;
+    display: inline-block;
+}
+
+.hover .hoverblock {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-style: double;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.hover:hover .hoverblock {
+    visibility: visible;
+}

@@ -1,0 +1,24 @@
+:: StoryMenu {"position":"425,25","size":"100,100"}
+<<link "Character Sheet">>
+	<<script>>
+	Dialog.setup("Your Character");
+	Dialog.wiki(Story.get("Character Sheet").processText());
+	Dialog.open();
+	<</script>>
+<</link>>
+
+<<link "Character Stats">>
+	<<script>>
+    Dialog.setup("Your Stats");
+    Dialog.wiki(Story.get("Character Stats").processText());
+    Dialog.open();
+    <</script>>
+<</link>>
+
+<<link "The Autobots">>
+	<<script>>
+    Dialog.setup("Relationships on the Ark");
+    Dialog.wiki(Story.get("The Autobots").processText());
+    Dialog.open();
+    <</script>>
+<</link>>

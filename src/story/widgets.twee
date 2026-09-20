@@ -1,0 +1,126 @@
+:: Widgets {"position":"300,25","size":"100,100"}
+
+/*************************** 
+    ARMOR COLORS WIDGETS 
+***************************/
+<<widget "ArmorColorCycle">>
+    <<cycle "$armorColor" autoselect>>
+        <<option "cyan">>
+        <<option "alabaster">>
+        <<option "crimson">>
+        <<option "lime">>
+        <<option "orange">>
+        <<option "royal purple">>
+        <<option "ochre">>
+        <<option "hot pink">>
+        <<option "teal">>
+        <<option "olive">>
+        <<option "milk brown">>
+        <<option "midnight blue">>
+        <<option "scarlet">>
+        <<option "violet">>
+        <<option "black">>
+        <<option "tan">>
+        <<option "baby pink">>
+        <<option "salmon">>
+        <<option "emerald">>
+        <<option "cream yellow">>
+        <<option "periwinkle">>
+        <<option "ivory">>
+        <<option "steel">>
+        <<option "sky blue">>
+        <<option "sea green">>
+        <<option "navy">>
+        <<option "gold">>
+        <<option "silver">>
+        <<option "rose gold">>
+
+    <</cycle>>
+<</widget>>
+
+
+/*************************** 
+    FRAME WIDGET
+***************************/
+<<widget "Frame">>
+    <<set 
+        $height = ["giant", "large", "average", "small", "mini"],
+    >>
+    <<set
+    	$composition = ["built", "hefty", "plump", "curvy", "slender", "lithe", "tiny"]
+    >>
+     <<set
+     	$altForm = ["sportscar", "truck", "courier plane", "fighter jet", "tank", "motorcycle"]
+    >>
+<</widget>>
+
+
+
+/********************************
+    CHANGE POPUP WIDGETS 
+********************************/
+
+<<widget "PopupDesignationChange">>
+    <<run Dialog.create("Change Your Designation").wikiPassage("Popup-Designation").open();>>
+<</widget>>
+
+
+<<widget "PopupGenderChange">>
+    <<run Dialog.create("Change Your Gender").wikiPassage("Popup-Gender").open();>>
+<</widget>>
+<<widget "IfGenderIsCustom">>
+
+    <<if $mc.gender "woman">>
+        <<set _gender = "woman">>
+    <<elseif $mc.gender "man">>
+        <<set _gender = "man">>
+    <<else $mc.gender "nonbinary">>
+        <<set _gender = "nonbinary">>
+    <</if>>
+
+<</widget>>
+
+
+
+
+<<widget "PopupOpticsChange">>
+    <<run Dialog.create("Change Your Optics").wikiPassage("Popup-Optic").open();>>
+<</widget>>
+
+
+<<widget "PopupArmorColorChange">>
+    <<run Dialog.create("Change Your Armor Color").wikiPassage("Popup-Frame").open();>>
+<</widget>>
+<<widget "PopupArmorChecker">>
+    <<set _armorColor to $armorColor>>
+<</widget>>
+
+
+<<widget "PopupFrameChange">>
+    <<run Dialog.create("Change Your Frame").wikiPassage("Popup-Frame").open();>>
+<</widget>>
+
+<<widget "PopupFrame">>
+    <<set 
+        $height = ["giant", "large", "average", "small",  "mini"],
+    >>
+<</widget>>
+
+
+<<widget "PopupCompositionChange">>
+    <<run Dialog.create("Change Your Composition").wikiPassage("Popup-Composition").open();>>
+<</widget>>
+
+<<widget "PopupComposition">>
+    <<set 
+        $composition =  ["built", "hefty", "plump", "curvy", "slender", "lithe", "tiny"]>>
+<</widget>>
+
+
+
+
+<<widget "PopupCharacterSheet">>
+
+<</widget>>
+
+

@@ -1,5 +1,11 @@
 :: StoryTitle
 Hello There!
 
-:: Start
-Hello World! :)
+:: Autobot Intro {"position":"175,175","size":"100,100"}
+A shrill beeping fills your habsuite, bouncing off the barren metal walls and into your unprepared audials. You roll over with a groan, taking off your portable HUD and throwing it to the floor. That doesn't quiet it in the least, but it muffles with the distance. Your optics are slow to power on, $opticColor lights dim and the feedback fuzzy. Finally your processor onlines enough to make out the blurry features of your room.
+
+Monitor duty, again.
+
+You kick one pede, then the other, over the edge of your berth. After yesterday's battle, your frame feels like you got put back together with spare parts. Your joints creak as you shuffle about your habsuite, preparing for the day by wiping down your face with a moist cloth and looking through the Autobot network's latest updates.
+
+[[Stumble out the door]]

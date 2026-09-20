@@ -1,0 +1,15 @@
+
+$opticColor
+$mc.name
+$armorColor
+$altForm
+$composition
+$mc.gender
+$height
+
+$prowl
+$optimus
+$prowl.approval
+$optimus.approval
+<<set $prowl.approval += 1>>
+$prowl.approval <i just gave you a prowl point spend it well

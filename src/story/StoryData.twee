@@ -1,6 +1,72 @@
 :: StoryData
 {
-	"ifid": "D674C58C-DEFA-4F70-B7A2-27742230C0FC",
-	"format": "SugarCube",
-	"format-version": "2.30.0"
+  "ifid": "A12C3437-9B4F-4D48-B770-03A589ACAF47",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Index - Character Creation",
+  "tag-colors": {
+    "startup": "red"
+  },
+  "zoom": 1
 }
+
+:: StoryInit [startup]
+***************************
+	APPROVAL SYSTEM
+***************************
+
+*/* Create Prowl */*
+
+<<set $prowl = ["Prowl"]>>
+
+*/* Create Prowl Approval System */*
+
+<<set $prowl.approval = 0>>
+
+*/* Create Optimus */*
+
+<<set $optimus = ["Optimus"]>>
+
+*/* Create Optimus Approval System */*
+
+<<set $optimus.approval = 100>>
+
+**************************
+	CHARACTER STATS
+**************************
+<<set $mcCorruption = 0>>
+<<set $mcVirginity = true>>
+	<<if $mcVirginity>>
+		<<set $mcVirginity to "You are factory sealed.">>
+	<<else>>
+		<<set $mcVirginity to "Your seal is broken.">>
+	<</if>>
+<<set $mcSubmission = 0>>
+<<set $mcStrength = 0>>
+<<set $mcIntelligence = 0>>
+<<set $chastitySeal = true>>
+
+<<set 
+    $mc to {},
+    $proset to {},
+    $face to {},
+    $skin to {},
+    $body to {}>>
+
+    /* This last one is only for practicality */
+<<set $pages to {}>>
+
+<<set $armorColor = ["cyan", "alabaster", "crimson", "lime", "orange", "royal purple", "ochre", "hot pink", "teal", "olive", "milk brown", "midnight blue", "scarlet", "violet",  "black", "tan", "baby pink", "salmon", "emerald", "cream yellow", "periwinkle", "ivory", "steel", "sky blue", "sea green", "navy", "gold", "silver", "rose gold"]>>
+<<set $armorColor = _armorColor>>
+
+<<set $opticColor to ["blue", "red", "gold", "purple"]>>
+<<set $opticColor = _optic>>
+
+<<set $height = ["giant", "large", "average", "small", "mini"]>>
+<<set $height = _height>>
+
+<<set $altForm = ["sportscar", "truck", "courier plane", "fighter jet", "tank", "motorcycle"]>>
+<<set $altForm = _altForm>>
+
+<<set $composition = ["built", "hefty", "plump", "curvy", "slender", "lithe", "tiny"]>>
+<<set $composition = _composition>>
