@@ -61,7 +61,7 @@
 
 <<set $opticColor to ["blue", "red", "gold", "purple"]>>
 <<set $opticColor = _optic>>
-
+-
 <<set $height = ["giant", "large", "average", "small", "mini"]>>
 <<set $height = _height>>
 
