@@ -69,9 +69,4 @@ __Armor Color:__
 <<listbox "$armorColor">><<optionsfrom _armorColor>><</listbox>>
 
 
-<center><<button [[Ready ->Disclaimer]] >><</button>></center>:: StoryData
-{
-	"ifid": "D674C58C-DEFA-4F70-B7A2-27742230C0FC",
-	"format": "SugarCube",
-	"format-version": "2.30.0"
-}
+<center><<button [[Ready ->Disclaimer]] >><</button>></center>
