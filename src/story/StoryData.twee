@@ -70,3 +70,13 @@
 
 <<set $composition = ["built", "hefty", "plump", "curvy", "slender", "lithe", "tiny"]>>
 <<set $composition = _composition>>
+
+**************************
+	DAY & NIGHT
+**************************
+<<set $time to {
+    hour: 8,
+    day: 1,
+    dayName: "Monday"
+}>>
+<<set $dayNames to ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]>>

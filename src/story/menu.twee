@@ -22,3 +22,31 @@
     Dialog.open();
     <</script>>
 <</link>>
+
+:: Character Sheet {"position":"275,25","size":"100,100"}
+Here is Character Sheet! It's a sheet for a character.
+
+Your Designation is: $mc.name
+Your age is: ????
+You're an <<set $compliment to either("alluring", "attractive", "optic-catching")>> $compliment $armorColor $altForm.
+Your frame is $composition.
+
+I will fill this out later with more writing rn I'm excited I got it to work!
+
+<<link "<<scicon cog>>Character Editor">>
+	<<script>>
+    Dialog.setup("Character Editor");
+    Dialog.wiki(Story.get("Character Editor").processText());
+    Dialog.open();
+    <</script>>
+<</link>>
+
+:: Character Stats {"position":"525,25","size":"100,100"}
+HP: $mcHealth
+Strength: $mcStrength
+Intelligence: $mcIntelligence
+Aim: $mcAim
+<kinktext>Virginity: $mcVirginity
+Corruption Level: $mcCorruption
+Dominance: $mcDominant
+Submissiveness: $mcSubmissive</kinktext>

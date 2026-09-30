@@ -16,16 +16,6 @@ Strength: $mcStrength
 Intelligence: $mcIntelligence
 
 
-:: Disclaimer {"position":"50,175","size":"100,100"}
-This is an 18+ game. No minors allowed!
-
-Your character has both a valve and spike, regardless of gender chosen at the start. This is something you cannot opt out of at this time. If this is something that will cause you distress, you should click out now.
-
-This is a fangame, not canon or related to Hasbro, and has disturbing/graphic sexual content.
-
-<<button [[I understand ->Autobot Intro]]>> <</button>> 
-
-
 :: Index - Character Creation {"position":"50,25","size":"100,100"}
 <center><h1>Personal Construction</h1></center>
              

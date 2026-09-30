@@ -1,6 +1,26 @@
 :: StoryTitle
 Hello There!
 
+:: Disclaimer {"position":"325,200","size":"100,100"}
+<<set $sheetDisable = false>><<set $statsDisable = false>> This is an 18+ game. No minors allowed!
+
+Your character has both a valve and spike, regardless of gender chosen at the start. This is something you cannot opt out of at this time. If this is something that will cause you distress, you should click out now.
+
+This is a fangame, not canon or related to Hasbro, and has disturbing/graphic sexual content.
+
+The content will include (but is not limited to):
+noncon
+amputation
+minor character death
+sire/carrier kink
+ooc behavior
+lots of robot sex
+kidnapping
+abuse
+coercion and manipulation
+
+<<button [[I am 18+ and I understand ->Rude Awakening]]>> <</button>> 
+
 :: Autobot Intro {"position":"175,175","size":"100,100"}
 A shrill beeping fills your habsuite, bouncing off the barren metal walls and into your unprepared audials. You roll over with a groan, taking off your portable HUD and throwing it to the floor. That doesn't quiet it in the least, but it muffles with the distance. Your optics are slow to power on, $opticColor lights dim and the feedback fuzzy. Finally your processor onlines enough to make out the blurry features of your room.
 
