@@ -1,28 +1,10 @@
-:: Character Sheet {"position":"550,25","size":"100,100"}
-Here is Character Sheet! It's a sheet for a character.
-
-Your Designation is: $mc.name
-Your age is: ????
-You're an <<set $compliment to either("alluring", "attractive", "optic-catching")>> $compliment $armorColor $altForm.
-Your frame is $composition.
-
-I will fill this out later with more writing rn I'm excited I got it to work!
-
-
-:: Character Stats {"position":"800,25","size":"100,100"}
-Virginity: $mcVirginity
-Corruption Level: $mcCorruption
-Strength: $mcStrength
-Intelligence: $mcIntelligence
-
-
 :: Index - Character Creation {"position":"50,25","size":"100,100"}
 <center><h1>Personal Construction</h1></center>
-             
+
 __Designation:__ <<textbox "$mc.name" "" autofocus>>
- <<if !$mc.name>>
+    <<if !$mc.name>>
             <<set $mc.name to "Iota">>
- <</if>> 
+    <</if>> 
             
 __Gender:__
 <label><<radiobutton "$mc.gender" "femme" checked>> Femme (Woman)</label>
